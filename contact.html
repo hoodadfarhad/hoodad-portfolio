@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact | Hoodad Farhad</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/animations.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+</head>
+
+<body>
+
+  <div id="three-bg"></div>
+
+  <div class="gradient-blob blob-1"></div>
+  <div class="gradient-blob blob-2"></div>
+
+  <header class="navbar">
+
+    <a href="./index.html" class="logo">
+      HF
+    </a>
+
+    <nav class="nav-links">
+      <a href="./index.html#about">About</a>
+      <a href="./index.html#skills">Skills</a>
+      <a href="./index.html#projects">Projects</a>
+      <a href="./resume.html">Resume</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+
+  </header>
+
+  <main class="contact-page">
+
+    <section class="section">
+
+      <div class="glass contact-container fade-up">
+
+        <div class="contact-intro">
+
+          <p class="section-tag">CONTACT</p>
+
+          <h1>Let’s Build Something Great</h1>
+
+          <p>
+            Whether it’s software engineering opportunities,
+            collaboration, freelance work, or simply connecting,
+            feel free to reach out.
+          </p>
+
+        </div>
+
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/hoodad.farhad@gmail.com"
+          method="POST"
+        >
+
+          <input
+            type="hidden"
+            name="_subject"
+            value="New Portfolio Contact Message"
+          >
+
+          <input
+            type="hidden"
+            name="_captcha"
+            value="false"
+          >
+
+          <input
+            type="hidden"
+            name="_template"
+            value="table"
+          >
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="John Doe"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="john@email.com"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="7"
+              required
+              placeholder="Tell me about your project, opportunity, or message..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="primary-btn">
+            Send Message
+          </button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <script type="module" src="./js/main.js"></script>
+
+</body>
+</html>
+
+
+
