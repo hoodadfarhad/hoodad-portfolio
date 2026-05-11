@@ -230,6 +230,10 @@ a {
 }
 
 .section {
+    scroll-margin-top: 90px;
+  }
+
+.section {
   padding: 50px 8%;
   position: relative;
 }
@@ -421,7 +425,7 @@ margin-top: 15px;
   }
 
   .section {
-    padding: 100px 5%;
+    padding: 24px 5%;
   }
 
   .footer {
